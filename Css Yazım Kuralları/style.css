@@ -1,0 +1,17 @@
+/* external css(harici css) bu şekilde .css
+uzantılı bir dosya açarak yazılır ve html sayfasında
+head bölümüne link etiketli kullanılarak eklenir. */
+p{
+    color: aquamarine;
+    font-size: 40px;
+}
+h1{
+    color: chartreuse;
+    font-size: 70px;
+}
+/* Hangisi öncelikli?
+html koduna en yakın olan css kodu aktif olur.
+1) inline
+2) internal
+3) external
+ */
