@@ -1,0 +1,15 @@
+*{ /* *seçicisi ile sayfadaki tüm elemanlar seçilir. */
+    color: red;
+}
+#ilk{ /* id kullanımı # ile yapılır. sadece id'si ilk olanlara
+    uygulanır.*/
+    color: aqua;
+}
+#ikinci{
+    color: brown;
+}
+.siyah{ /* . ile class ismi seçilir ve classı .beyaz olan tüm etiketler
+    etkilenir.*/
+    color: black;
+}
+/* id classtan önceliklidir. classı ezer.*/

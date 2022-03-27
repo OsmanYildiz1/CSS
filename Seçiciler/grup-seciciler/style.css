@@ -1,0 +1,47 @@
+h1,h2{ /* hem h1 hem de h2 etiketlerini seçer */
+    color: brown;
+}
+h1,h2 u{ /* h1 ve h2 içindeki u etiketine sahip olanları seç */
+    color: blue;
+}
+p strong{ /* p tagı içindeki strong etiketine sahip olanları seç */
+    color: violet;
+}
+p #mi{ /* p tagı içindeki id'si mi olanı seç*/
+    color: blue;
+    font-style: italic;
+}
+p.egik{ /* class değeri egik olan paragraf etiketlerini seç*/
+    font-style: italic;
+    color: chartreuse;
+}
+div>p{ /* ebeveyni div olan tüm p etiketlerini seç */
+    color:blueviolet;
+}
+.menu ul li{ /* class değeri menü olan elemanın içindeki ul tagı altındaki li elemanlarını seç.*/
+    font-size: 50px;
+}
+.deger>p:first-child{ /* class değeri deger olan elemanın içindeki p taglarinin ilkini seç*/
+    font-style: italic;
+}
+.deger>p:last-child{/* class değeri deger olan elemanın içindeki p taglarinin sonuncusunu seç*/
+    font-size: 60px;
+}
+a:link{ /* henüz ziyaret edilmemiş linkleri seç*/
+    
+}
+a:visited{ /* ziyaret edilmiş linkleri seç*/
+    
+}
+a:hover{ /* fare ile üzerine gelindiğinde*/
+    color: black;
+}
+a:focus{ /* klavye ile üzerine gelindiğinde örneğin tab tuşu ile*/ 
+    color: brown;
+}
+input[type]{ /* input içinde type özelliği olanları seç.*/
+    font-size: 50px;
+}
+input[type="text"]{ /*input içinde type özelliği text olanları seç.*/
+     background-color: aqua;
+}
