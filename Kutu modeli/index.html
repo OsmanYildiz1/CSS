@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            border-style: solid dotted dashed solid ; /* kenarlık çizgi tipini belirler */
+            border-width: 15px 30px 20px 25px; /* kenarlık kalınlığını belirler. */
+            border-color: red blue yellow pink; /* renk top-right-bottom-left olarak ayrı ayrı ayarlanabilir.*/
+            height: 100px;
+            padding: 20px;  /* padding içerikle kenarlıklar arası boşlukları belirler*/ 
+            margin: 20px 50px 10px 25px; /* margin sayfanın köşeleri ve diğer nesneler arasındaki boslukları belirler. */
+            /* margin ve padding tek tek değerlerle gösterilebilir sırasıyla: top-right-bottom-left */            
+        }
+        .bir{
+            border-style: solid;
+            border-width: 10px; 
+            width: 200px; height: 1000px;
+            border-color: green;
+            background-color: aqua; /* arkaplan rengi ayarlama*/ 
+            color: black; /* yazı rengi*/ 
+            background-size: 100px; /* arka plan resminin boyutunu ayarlamak için*/
+         
+        }
+        .ikinci{
+            width: 300px;
+            height: 100px;
+            border: solid black 1px;
+            background-image: url(resim/pexels-francesco-ungaro-281260.jpg); /* arkaplana resim eklemek için*/ 
+            background-size: 200px;
+            background-repeat: no-repeat; /* arkaplan resmi alanı dolduracak kadar tekrar etsin mi edecekse nasıl etmeli gibi ayarlar */
+            background-position: top center; /* arkaplan resminin pozisyonunu ayarlar. */
+            background-attachment:fixed; /* resim sabit mi kalsın yoksa sayfa çubuğu kaydıkça resimde kaysın mı gibi ayarları yapar*/
+        }
+        .üc{
+            display: block;/* block özelliği bulundukları yerdeki tüm satırı işgal eder.
+            inline ise sadece bulunduğu yeri işgal eder.*/
+            width: 200px;
+            height: 100px;
+            border: solid black 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eğitimler</h1>
+    <h2>Temel bilişim eğitimleri</h2>
+    <p class="bir">windows</p>
+    <p class="ikinci">word</p>
+    <p class="üc">excel</p>
+    
+</body>
+</html>
