@@ -1,0 +1,39 @@
+#bir{
+    width: 350px;
+    height: 150px;
+    background-color: red;
+    margin: 20px;
+    z-index: 1; /* hangi kutunun önde hangi kutunun arkada görüneceğini z index 
+    değeri belirler. değeri büyük olan önde gözükür.*/
+}
+#iki{
+    position: relative;
+    top: -60px;
+    left: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: cyan;
+    margin: 20px;
+    z-index: 2;
+}
+div{
+    border: 5px solid sandybrown;
+    border-radius: 20px; /*kenarlara eğim vermek(yuvarlamak) için*/
+    border-width: 10px 20px; /* kenar kalınlığı*/
+    border-color: aquamarine yellowgreen rosybrown firebrick;
+}
+
+#tasma{
+    width:150px;
+    height: 200px;
+    background-color: teal;
+    overflow:auto;
+    /*overflow özelliği ile taşmalar hakkında ne yapılacağı belirlenir.
+    hidden: taşan içeriği gizler.
+    scroll: taşan içeriği kutunun içinde sığıdırır ve kaydırma çubuğuyla görüntülemeye
+    verir.
+    visible: taşan içeriği olduğu gibi kutu dışında gösterir.
+    auto: taşan içerik yoksa kaydırma çubuğu koymaz fakat taşan içerik
+    varsa kaydırma cubugu koyarak kutunun içinde görüntülenmesine izin verir.
+    */ 
+}
