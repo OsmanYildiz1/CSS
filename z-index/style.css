@@ -1,0 +1,21 @@
+#bir{
+    width: 350px;
+    height: 150px;
+    background-color: red;
+    margin: 20px;
+    z-index: 1; /* hangi kutunun önde hangi kutunun arkada görüneceğini z index 
+    değeri belirler. değeri büyük olan önde gözükür.*/
+}
+#iki{
+    position: relative;
+    top: -60px;
+    left: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: cyan;
+    margin: 20px;
+    z-index: 2;
+}
+div{
+    border: 5px solid sandybrown;
+}
