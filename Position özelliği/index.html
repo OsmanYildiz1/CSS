@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #buyuk{
+            background-color: red;
+            width: 250px;
+            height: 150px;
+            position: fixed;
+            right: 200px;
+            bottom: 150px;
+            
+        }
+        #kucuk{
+            background-color: aqua;
+            width: 150px;
+            height: 100px;
+            position: absolute;
+            /*position 
+            relative: kutunun bulunduğu yere göre hareket etmesini sağlar.
+            static: varsayılan değerdir.
+            fixed: sayfaya göre konumlandırılır.
+            absolute: kutunun içindeki başka kutuları konumlandırmak için kullanılır.
+            */
+            left: 20px;
+            top: 15px;            
+        }
+    </style>
+</head>
+<body>
+    <div id="buyuk"><div id="kucuk"></div></div>
+    
+</body>
+</html>
