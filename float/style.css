@@ -1,0 +1,10 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: turquoise;
+    margin: 10px;
+    border: 4px solid red;
+    float:left;
+    /* float özelliği hizalamayı sağlar sola yaslanma, sağa yaslanma gibi..
+    kapsadığı her bileşen kendi solundakine göre hizalanır.*/
+}
