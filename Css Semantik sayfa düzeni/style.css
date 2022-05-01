@@ -1,0 +1,56 @@
+#sayfa{
+    border: 2px solid yellowgreen;
+    width: 900px;
+    min-height: 750px;
+    margin: auto;
+}
+header{
+    border: dotted rebeccapurple;
+    width: 750px;
+    height: 100px;
+    margin: 5px auto; /* sayfayı sağdan soldan ortaladık*/
+    background-color: bisque;
+}
+nav{
+    border: solid red;
+    width: 750px;
+    margin: 5px auto; /* sayfayı sağdan soldan ortaladık*/
+    background-color: blueviolet;
+    height: 50px;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration:none; /* yazıya altçizgi ekleme kaldırma üstünü çizme gibi
+    özellikler ekleme. */ 
+}
+article{
+    border: solid 2px green;
+    width: 500px;
+    margin: 25px 15px; 
+    background-color:aqua;
+    min-height: 400px;
+    float: left;
+    position: relative;
+    left: 55px;
+}
+aside{
+    border: solid salmon;
+    width: 220px;
+    margin: 25px 15px;
+    background-color: seagreen;
+    height: 400px;
+    float: left;
+    position: relative;
+    left: 50px;
+}
+footer{
+    margin: auto;
+    width: 750px;
+    height: 30px;
+    background-color: saddlebrown;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+    left: 67px;
+
+}
