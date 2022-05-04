@@ -1,0 +1,41 @@
+p{
+    text-indent: 20px; /*paragrafın ilk satırdaki girintisini ayarlar*/
+    text-align:left; /* sayfayı ne tarafa hizalamak istediğini seçmek için*/
+    line-height: 20px; /* satırlar arası mesafeyi ayarlar.*/
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* yazı fontu tipi*/
+    color: blue;
+    font-size: 15px; /* yazı tipi boyutu*/
+    font-weight: bold; /* yazının kalınlığı */
+    font-style: italic; /* yazının stili italic vs.*/
+    font-variant: normal ; /* small caps metni küçük boyutta büyük harflerle yazar.*/
+    text-transform:none; /* capitalize: her kelimenin ilk harfi büyük olur.
+    uppercase: tüm harfler büyük yazılır.
+    lowercase: tüm harfler küçük yazılır.*/
+    text-decoration:none; /* metnin altını, üstünü ya da üzerini çizmek için ya da 
+    none ile çizgileri kaldırmak için kullanılır.*/
+    letter-spacing: 1px; /* harfler arasındaki boşluk*/
+    word-spacing: 3px; /* kelimeler arasındaki boşluk*/
+}
+.metin{
+    color: violet;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+.resim{
+    background-image: url("../resim/huge.PNG");
+    background-size: 500px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.baslik{
+    color: crimson;
+    text-decoration:underline;
+    text-decoration-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
