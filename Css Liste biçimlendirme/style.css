@@ -1,0 +1,13 @@
+ul{
+   list-style-type: square; /* madde imlerini değiştirmek için list style type kullanılır.*/
+}
+li{
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid firebrick;
+    background-color: coral;
+    color: cadetblue;
+    font-size: 20px;
+}
