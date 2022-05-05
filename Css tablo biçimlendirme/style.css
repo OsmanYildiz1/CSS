@@ -1,0 +1,26 @@
+table{
+    color: red;
+    background-color:wheat;
+    border-collapse: collapse; /* çerçeveyi tek çizgli hale getirir.*/
+    border: 5px solid black;
+}
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: yellowgreen;
+    background-color: coral;
+    padding: 10px;
+}
+td{
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color:cornflowerblue;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle; /* metnin hücrenin neresinde kalacağını ayarlar. */
+    border: dotted ;
+}
