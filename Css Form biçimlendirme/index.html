@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formları Biçimlendirme</title>
+    <style>
+        input[type=text],input[type=email]{
+            color: aqua;
+            background-color: cadetblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+        }
+        .formeleman{
+            color: darkorchid;
+            font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: black;
+            border: 2px solid seagreen;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <table>
+            <tr>
+                <td>Ad Soyad: </td>
+                <td><input type="text"></td> 
+            </tr>
+       
+            <tr>
+                <td> Email:</td>
+               <td> <input type="email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet:</td>
+                <td> Erkek<input type="radio" name="Cinsiyet">  Kadın <input type="radio" name="Cinsiyet" id=""></td>
+            </tr>
+       
+            <tr>
+                <td>Mesajınız: </td>
+                <td> <textarea class="formeleman" name="" id="" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>  <input type="reset"> <input type="submit"></td>
+            </tr>
+     
+         </table>
+    </form>
+</body>
+</html>
