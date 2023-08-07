@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        height: 500px;
+        background-color: #034f84;
+      }
+      .item {
+        background-color: #f7786b;
+        padding: 30px;
+        color: #fff;
+        font-size: 25px;
+        margin: 20px;
+        /* flex-grow: 1; bütün elemanları containerı kaplayacak sekilde genişletir. büyüme oranı */
+        /* flex: 0 0 200px; grow shrink basis */
+      }
+      .item1 {
+        /* flex-grow: 1; item 2-3-4 ten kalan alanı item 1 e verir */
+        /* flex-grow: 2; */
+        flex: 25%;
+        order: 3; /*order ile sıra bilgisi değişebilir.*/
+      }
+      .item2 {
+        /* flex-grow: 1; item 3 ve 4 ten kalan alanın 2x boyutunda item1e verir kalan x i item2 ye verir. */
+        flex: 25%;
+        order: 2;
+      }
+      .item3 {
+        order: 1;
+        /* flex-basis: 200px; başlangıçta 200px */
+        flex: 50%;
+        /* flex-shrink: 0; 0 verirlirse hiçbir zaman 200 px altına düşmez */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1">Item1</div>
+      <div class="item item2">Item2</div>
+      <div class="item item3">Item3</div>
+    </div>
+  </body>
+</html>

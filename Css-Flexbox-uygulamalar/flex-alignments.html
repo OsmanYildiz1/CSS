@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        /*flex-direction: column;  kutu ters donmus olur ve justify dikeyde, align items yatayda hizalama yapar  */
+
+        /* YATAYDA HİZALAMA İÇİN*/
+        /* justify-content: center; /*merkezden siralar*/
+        /* justify-content: flex-start; sayfa basindan siralar (default ayar budur) */
+        /* justify-content: flex-end; sayfa sonunda siralar */
+        /* justify-content: space-around; köselerden 1x itemler arasi 2x bosluk birakir. */
+        /* justify-content: space-between; köselerden bosluk bırakmaz itemler arasi esit bosluk bırakır. */
+        /* justify-content: space-evenly; köselerden ve itemler arasi esit bosluk bırakır. */
+
+        /*DİKEYDE HİZALAMA İÇİN*/
+        /* align-items: stretch; defaul ayar, container kadar yer kaplar */
+        /* align-items: flex-start;  icerik kadar yer kaplar ve satirin üst kismina gelir */
+        /* align-items: flex-end; yuksekligin en alt kismina gelir */
+        /* align-items: center; sayfa baslangicinin ortasına hizalar */
+
+        height: 500px;
+        background-color: #034f84;
+      }
+      .item {
+        background-color: #f7786b;
+        padding: 30px;
+        color: #fff;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item1</div>
+      <div class="item">Item2</div>
+      <div class="item">Item3</div>
+      <div class="item">Item4</div>
+    </div>
+  </body>
+</html>
