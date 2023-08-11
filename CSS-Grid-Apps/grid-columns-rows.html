@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        display: grid; /*block yer kaplar*/
+
+        /* grid-template-columns: 150px 250px 400px 150px; kolon sayısı ve genişliği */
+        /* grid-template-columns: 150px auto 200px auto; 200+150 pxden kalan kısım 2. ve 4. kolona paylaştırılır. */
+        /* grid-template-columns: auto auto 20%; 3. kolon tarayıcı genişliğinin 20% sini alır kalan alan 1 ve 2 için paylaştırılır. */
+        /* grid-template-columns: repeat(3,auto); 3 kolonu eşit bölme fonksiyonu */
+        /* grid-template-columns: repeat(3, 200px); 4 kolunu 200'er pixel genişllik ver */
+        grid-template-columns:  2fr  1fr ;  /*fr, 350pxden kalan genişliği 2ye 1 oranında kolonlara ayırmayı sağlar*/
+        grid-template-rows: 1fr 2fr;/*fr, 350pxden kalan yüksekliği 1e 2 oranında kolonlara ayırmayı sağlar*/
+        grid-auto-rows: 3fr;  /* ilk 2 satırı verilen değeri uygular. kalan satırlar ise 3 oranında eşit sekilde dağıtır.*/
+        background-color: #034f84;
+        padding: 20px;
+      }
+      .item {
+        background-color: #f7786b;
+        padding: 20px;
+        margin: 20px;
+        color: #fff;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+      <div class="item">item 4</div>
+    </div>
+  </body>
+</html>

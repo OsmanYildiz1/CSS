@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        gap: 10px;
+        /* grid-template-columns: minmax(200px, 500px) 1fr 1fr; 200px'in altına düşme yer varsa 500px'e kadar yükselt kalanı eşit dağıt*/
+        /* grid-template-columns: repeat(3, minmax(200px, 1fr)); her kolon eşit değer alacak */
+        /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));   autofill, kolon adedi vermeyip genişliği 200px altına düşerse scrollbar cıkarmak yerine itemi alt satıra alır. fazladan yer varsa yeni kutu için bos bırakır. */
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(200px, 1fr)
+        ); /*fazladan yer varsa bos bırakmaz itemleri genişletir.*/
+      }
+      .item {
+        background-color: #f7786b;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Box 1</div>
+      <div class="item">Box 2</div>
+      <div class="item">Box 3</div>
+    </div>
+  </body>
+</html>
