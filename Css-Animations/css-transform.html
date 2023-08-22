@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .box {
+        background-color: yellow;
+        width: 150px;
+        height: 150px;
+        border-top: 5px solid green;
+        transition: all 1s ease-in-out;
+      }
+      .box:hover {
+        /* transform: rotate(45deg); rotate: girdiğimiz açı kadar döndürür */
+        /* transform: skew(-30deg); şekli açı kadar yamuğa dönüştürür */
+        /* transform: scale(2); 2 kat büyütür. */
+        /* transform: translateX(100px);  x ekseninden hareket sağlar*/
+        /* transform: translateY(100px); y ekseninden hareket sağlar*/
+        /* transform: translate(100px,100px); iki ekseni aynı anda hareket ettirmek için */
+        /* transform: rotateX(180deg); x ekseninde döndürür */
+        transform: rotateY(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
